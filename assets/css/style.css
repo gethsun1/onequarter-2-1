@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@700&family=Roboto+Slab&display=swap');
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -12,10 +15,16 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1{
+  font-family: 'Montserrat', sans-serif;
 }
 
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -511,12 +520,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 32px;
+  border: 2px solid #000000;
   border-radius: 4px;
   transition: 0.5s;
   line-height: 1;
@@ -611,45 +621,56 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured Products
 --------------------------------------------------------------*/
-.featured-services {
+.img-box img{
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 120px !important;
+  height: 120px;
+  display:inline;
+
+}
+
+.featured-products {
   padding: 20px 0;
 }
 
-.featured-services .icon-box {
-  padding: 20px;
+.featured-products .img-box {
+  width: 370px;
+  height: 217px;
+
 }
 
-.featured-services .icon-box-bg {
-  background-image: linear-gradient(0deg, #222222 0%, #2f2f2f 50%, #222222 100%);
+.featured-products .img-box-bg {
+  background-image: linear-gradient(0deg, #222222 0%, #000000 50%, #222222 100%);
 }
 
-.featured-services .icon {
+.featured-products .icon {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
+.featured-products .icon i {
   color:#9ed125;
   font-size: 42px;
 }
 
-.featured-services .title {
+.featured-products .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
+.featured-products .title a {
   color: #222222;
   transition: 0.3s;
 }
 
-.featured-services .icon-box:hover .title a {
+.featured-products .img-box:hover .title a {
   color: #9ed125;
 }
 
-.featured-services .description {
+.featured-products .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -767,7 +788,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.services .img-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -775,7 +796,7 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
-.services .icon-box .icon {
+.services .img-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -786,41 +807,41 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.services .img-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.services .img-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.services .img-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.services .img-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.services .img-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.services .img-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.services .img-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
