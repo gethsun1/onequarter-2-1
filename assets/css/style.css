@@ -19,12 +19,28 @@ h1{
   font-family: 'Montserrat', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3,  h5, h6 {
   font-family: 'Raleway', sans-serif;
 }
+
+h4{
+  font-weight: 700;
+}
 p{
+  line-height: 24px;
+  letter-spacing: 1.2px;
   font-family: 'Roboto Slab', serif;
 }
+
+
+.small{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  color: #808080;
+  text-align: center;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -636,9 +652,16 @@ section {
   padding: 20px 0;
 }
 
+.box-border{
+   border-left: 1px solid #9ed125;
+}
 .featured-products .img-box {
   width: 370px;
   height: 217px;
+
+
+
+  /*padding: -20px;*/
 
 }
 
