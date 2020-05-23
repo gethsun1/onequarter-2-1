@@ -44,6 +44,10 @@ p{
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.imglnk{
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
 .back-to-top {
   position: fixed;
   display: none;
@@ -74,10 +78,12 @@ p{
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fbfbfb;
+
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
+  font-weight: 900;
+
 }
 
 #topbar.topbar-scrolled {
@@ -85,8 +91,8 @@ p{
 }
 
 #topbar .contact-info a {
-  line-height: 1;
-  color: #444444;
+  line-height: 1.2;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -104,7 +110,7 @@ p{
 }
 
 #topbar .social-links a {
-  color: #777777;
+  color: #fff;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -640,7 +646,7 @@ section {
 # Featured Products
 --------------------------------------------------------------*/
 .img-box img{
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   border-radius: 50%;
   width: 120px !important;
   height: 120px;
